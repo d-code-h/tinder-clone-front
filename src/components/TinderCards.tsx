@@ -24,6 +24,9 @@ export default function TinderCards() {
   const outOfFrame = (name: string) => {
     console.log(name + ' left the screen!');
   };
+  if (people.length === 0) {
+    return <div className={styles.loading}>Loading...</div>;
+  }
   return (
     <div className={styles.tinderCards}>
       <div className={styles.tinderCards__container}>

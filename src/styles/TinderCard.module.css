@@ -1,3 +1,11 @@
+.loading {
+  width: 50%;
+  margin: auto;
+  font-size: 3rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
 .tinderCards__container {
   display: flex;
   justify-content: center;
