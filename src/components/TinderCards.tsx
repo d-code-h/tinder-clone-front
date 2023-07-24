@@ -5,7 +5,7 @@ import axios from '../utils/axios';
 
 interface Person {
   name: string;
-  imgUrl: string;
+  img: string;
 }
 export default function TinderCards() {
   const [people, setPeople] = useState([]);
